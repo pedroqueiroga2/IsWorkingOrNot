@@ -11,3 +11,12 @@ AlgoritmoPorDataDefinida: Possui uma função assíncrona que precisa ser inicia
 
 AlgoritmoParaDataAtual: Possui uma função que não precisa de parâmetros para inicialização.
 
+# Observação
+
+Ademais, a informação recebida com o resultado esperado, como a da imagem abaixo, apresentam divergências de informações. Contudo, fiz o algoritmo me baseando na primeira imagem.
+
+<img width="189" height="50" alt="image" src="https://github.com/user-attachments/assets/8f7bb81c-8bd0-4efb-8d61-2f728ecd56e5" />
+<img width="284" height="25" alt="image" src="https://github.com/user-attachments/assets/8684effb-05f2-4089-b2f7-17e8d1890376" />
+
+
+

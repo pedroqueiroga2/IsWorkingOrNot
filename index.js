@@ -1,9 +1,10 @@
-function VerificarHorarioFuncionamento(data = new Date()) {
+function VerificarHorarioFuncionamento() {
 
-    const diaDaSemana = data.getDay();
-
-    const hora = data.getHours()
-    const minutos = data.getMinutes();
+    
+    const agora = new Date();
+    const diaDaSemana = agora.getDay();
+    const hora = agora.getHours()
+    const minutos = agora.getMinutes();
 
     const horarioAtual = hora * 60 + minutos;
 
@@ -27,5 +28,5 @@ function VerificarHorarioFuncionamento(data = new Date()) {
     "Olá, NÃO estamos em horário de funcionamento."
 }
 
-console.log(VerificarHorarioFuncionamento(new Date("2026-02-08T10:00")));
+console.log(VerificarHorarioFuncionamento());
 
